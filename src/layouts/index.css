@@ -13,15 +13,27 @@ html {
 body {
   margin: 0;
   background: #8e44ad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .note-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
-  font-size: 15vw;
+  height: 95vh;
   color: white;
   user-select: none;
+  flex-direction: column;
+}
+
+.note-container .note {
+  font-size: 15vw;
+  font-weight: normal;
+}
+
+.note-container .hand {
+  font-size: 7vw;
+  font-weight: normal;
 }
